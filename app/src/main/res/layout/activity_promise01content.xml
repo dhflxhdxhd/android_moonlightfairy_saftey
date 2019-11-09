@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Promise01contentActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="146dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/promise01page">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="제 1 장 총칙\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 1 조 목적\n\n‘달빛요정(이하 어플)’이 운영, 관리하는 어플 이용에 관한 제반 사항과 기타 필요한 사항을 규정함을 목적으로 합니다.
+"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 2 조 어플 운영의 내용\n\n1. 범위: 달빛요정 어플\n
+                \n 2. 운영목적: 사용자를 위한 SOS 서비스 제공, 상황에 따른 도움을 받기 위한 국가 및 사설기관 연락처  제공 등\n
+                \n 3. 운영내용\n
+                \n① 사용자가 위험한 상황에 처했을 경우, 경찰 혹은 주변에 다른 어플 사용자에게 도움을 요청할 수 있게 하는 서비스 제공
+                \n② 사용자가 해결할 수 없는 상황에 대해 도움을 요청할 수 있는 기관에 대한 연락처 및 전화 연결 서비스 제공
+                \n③ 사용자가 신고한 지역들에 대한 빅데이터를 수집하고, 사고다발구역에 대한 정보 제공\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 3 조 용어의 정의\n
+                \n1. 본 약관에서 사용하는 용어의 정의는 다음과 같습니다.\n
+                \n① 서비스: 어플가 구현되는 단말기(PC, TV, 휴대형단말기 등의 각종 유무선 장치를 포함)와 상관없이 이용할 수 있는 어플 어플 및 연동 어플 관련 제반 서비스를 의미합니다.\n
+                \n② 이용계약: 서비스를 제공받기 위해 어플과 체결하는 계약을 의미합니다.\n
+                \n③ 사용자: 어플의 서비스에 접속해 본 약관에 따라 어플과 이용계약을 체결하고 어플이 제공하는 서비스를 이용하는 자를 의미합니다.\n
+                \n④ 비사용자: 어플 어플에 가입하지 않고 서비스를 이용하는 자를 의미합니다.\n
+                \n⑤ 아이디(ID): 사용자의 식별과 서비스 이용을 위해 사용자가 정하고 어플이 승인하는 문자와 숫자, 특수기호 등의 조합을 의미합니다.\n
+                \n⑥ 비밀번호: 사용자가 부여받은 아이디와 일치되는 사용자임을 확인하고 개인정보보호를 위해 사용자 자신이 정한 문자와 숫자, 특수기호 등의 조합을 의미합니다.\n
+                \n⑦ 게시물: 서비스 상에 게시한 부호·문자·음성·음향·화상·동영상 등의 정보 형태 글, 사진, 동영상 및 각종 파일과 링크 등을 의미합니다.\n
+                \n⑧ 회원탈퇴: 사용자가 어플 이용계약을 해지하는 것을 의미합니다.\n"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 2. 제 1항에서 정한 것 이외의 본 약관에서 사용된 용어의 정의 및 본 약관에서 정하지 아니한 사항이나 해석에 대해서는 서비스별 안내 및 관계법령 또는 상관례에 따릅니다.\n
+"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 4 조 사용자자격\n
+                \n1. 대한민국 국민과 외국인 등 모든 개인과 법인, 단체는 사용자 가입을 할 수 있습니다.\n
+                \n2. 외국인이 사용자 가입을 하려면 외국인등록번호가 있어야 합니다.\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 5조 이용의 제한\n
+                \n1. 본인 외 다른 개인 또는 법인 및 단체의 정보를 도용한 경우 사용자자격을 박탈할 수 있습니다.\n
+                \n2. 어플 서비스를 방해하는 행동을 한 경우, 사용자 또는 비사용자의 IP주소 접근을 차단할 수 있습니다.\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 6조 약관의 효력 및 변경\n
+                \n1. 어플은 본 약관의 내용을 사용자가 쉽게 알 수 있도록 초기 서비스화면에 게시하거나, 일부 화면에서  제공합니다.\n
+                \n2. 어플은 약관의규제에관한법률, 정보통신망이용촉진및정보보호등에관한법률(이하 정보통신망법) 등 관련법을 위배하지 않는 범위에서 본 약관을 개정할 수 있습니다.\n
+                \n3. 어플은 본 약관을 개정할 경우 적용일자 및 개정사유를 명시해 현행약관과 함께 서비스의 초기화면 및 공지사항에 그 적용일자 7일 전부터 적용일자 전일까지 적용합니다. 다만, 사용자에게 불리한 개정 약관의 경우에는 최소 30일 이상의 사전 유예기간을 두고 고지합니다.\n
+                \n4. 사용자는 개정된 약관에 대해 거부할 권리가 있습니다. 사용자는 개정된 약관에 동의하지 않을 경우 서비스 이용을 중단하고 해지할 수 있습니다. 다만, 어플이 전항에 따라 사용자에게 개정 약관을 공지하면서 공지일로부터 개정약관 시행일 30일 기간내에 거부의 의사를 표시하지 않은 경우에는 사용자가 개정약관에 동의한 것으로 봅니다.\n
+                \n5. 사용자가 개정 약관의 적용에 동의하지 않는 경우 어플은 개정 약관의 내용을 적용할 수 없으며, 이 경우 사용자는 이용계약을 해지할 수 있습니다. 다만, 기존 약관을 적용할 수 없는 특별한 사정이 있는 경우 어플은 이용계약을 해지할 수 있습니다.\n
+                \n6. 개정 약관에 대한 정보를 알지 못해 발생하는 사용자의 피해에 대해 어플은 책임이 면제됩니다."
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제 7조 약관 외 준칙\n
+                \n1. 본 약관은 어플이 제공하는 서비스에 관해 별도의 정책 및 운영규칙과 함께 적용됩니다.\n
+                \n2. 본 약관에 명시하지 않은 사항과 본 약관의 해석에 관하여는 관계법령 또는 상관례에 따릅니다.\n"
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

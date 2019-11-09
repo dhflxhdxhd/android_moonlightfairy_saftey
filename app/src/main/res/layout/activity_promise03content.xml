@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Promise03contentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="146dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/promise03page">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n‘달빛요정(이하 어플)’은 사용자의 개인정보를 안전하게 보호하기 위해 최선을 다하고 있습니다.\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n어플은 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법 등 법령상의 개인정보보호 규정을 준수하며, 관련 법령에 의거한 개인정보취급방침을 정해 사용자의 권익 보호에 최선을 다하고 있습니다.\n
+                \n어플의 개인정보취급방침은 정부의 법률 및 지침 변경이나 내부 방침 변경 등으로 인해 바뀔 수 있으며, 변경사항은 홈페이지 첫 화면에 게시하고 공지사항 게시판을 통해 고지하고 있습니다.\n
+                \n본 방침은 2019년 11월 01일부터 시행됩니다.\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n1. 수집하는 개인정보 항목 및 수집방법\n
+                \n① 어플은 회원가입, SOS신고, GPS를 통한 위치 정보 실시간 검색 등을 위해 최소한의 개인정보를 필수항목으로 수집하고 있습니다.\n
+                \nㄱ. 회원가입 시.\n
+                \n- 개인회원 필수항목: 아이디(ID), 비밀번호, 성명, 휴대폰, 구글 이메일\n
+                \n- 개인회원 선택항목: 회원번호\n
+                \n- 경찰회원 필수항목: 아이디(ID), 비밀번호, 단체명, 담당자명, 휴대폰, 구글 이메일\n
+                \n- 단체회원 선택항목: 회원번호\n\n
+                \n② 어플은 회원가입, SOS신고, GPS를 통한 위치 정보 실시간 검색 등을 통해 개인 또는 단체의 정보를 수집합니다.\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n제3조 (약관 외 준칙)\n
+                \n본 약관에 명시되지 않은 사항은 위치정보의 보호 및 이용 등에 관한 법률, 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 전기통신기본법, 전기통신사업법 등 관계법령과 어플의 이동통신 서비스에 관한  서비스 이용약관이나 어플이 별도로 정한 지침 등에 의함.\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n2. 개인정보의 수집 및 이용목적\n
+                \n어플은 수집한 개인정보를 다음의 목적으로 이용하고 있습니다.\n
+                \nㄱ. 회원 관리: 서비스 제공, 개인식별, 어플 이용약관 위반 회원에 대한 이용제한 조치, 서비스의 원활한 운영에 지장을 미치는 행위 및 서비스 부정이용 행위 제재,가입 및 가입횟수 제한, 만14세 미만 아동 개인정보 수집 시 법정 대리인 동의여부 확인, 추후 법정 대리인 본인확인, 분쟁 조정을 위한 기록보존, 불만처리 등 민원처리, 고지사항 전달, 회원탈퇴 의사의 확인\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n3. 개인정보의 보유 및 이용기간\n
+                \n어플은 원칙적으로 개인정보의 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기하며, 특히 탈퇴 사용자의 개인정보는 7일 이내에 파기하고 있습니다. 다만, 개인정보의 수집 및 이용목적이 달성된 경우에도 양자 간의 의무관계 확인 등을 이유로 일정기간 보유해야 할 필요가 있을 경우에는 일정기간 보유합니다.\n
+                \n① 관계법령에 의한 정보보유 사유\n
+                \nㄱ. 불만 또는 분쟁처리에 관한 기록\n
+                \n- 전자상거래 등에서의 소비자보호에 관한 법률\n
+                \n- 보존기간: 3년\n
+                \nㄴ. 본인확인에 관한 기록\n
+                \n- 보존사유: 정보통신망 이용촉진 및 정보보호 등에 관한 법률\n
+                \n- 보존기간: 6개월\n
+                \nㄷ. 어플 방문기록\n
+                \n- 보존사유: 통신비밀보호법\n
+                \n- 보존기간: 3개월\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n4. 개인정보 파기절차 및 방법
+                \n어플은 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 파기절차 및 방법은 다음과 같습니다.\n
+                \n① 파기절차\n
+                \nㄱ. 서비스 이용 등을 위해 입력한 정보는 목적이 달성된 후 별도의 DB로 옮겨져(종이의 경우 별도의 서류함) 내부처리지침 및 관련법령에 의한 정보보유 사유에 따라 일정기간 보관된 후 파기됩니다.\n
+                \nㄴ. 별도 DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 고유목적 외에 다른 목적으로 이용되지 않습니다.\n
+                \n② 파기방법\n
+                \nㄱ. 종이에 출력된 개인정보: 분쇄기로 분쇄\n
+                \nㄴ. 전자 파일 형태로 저장된 개인정보: 기록을 재생할 수 없는 기술적 방법으로 삭제\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n5. 개인정보의 제3자 제공\n
+                \n어플은 법령에 근거가 있는 등의 예외적인 경우를 제외하고 사용자의 동의 없이 개인정보를 제3자에게 제공하지 않습니다.\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n6. 개인정보의 취급위탁\n
+                \n어플은 원활한 업무 처리를 위해 사용자의 개인정보를 위탁 처리할 경우 반드시 사전에 개인정보 처리 위탁을 받는 자(이하 수탁자)와 개인정보 처리위탁을 하는 업무의 내용을 고지합니다. 위탁 처리되는 개인정보는 당해 업체와의 계약 종료 시까지 위탁 목적달성을 위한 최소한의 정보로 제한됩니다.\n
+                \n- GOOGLE 로그인 연동: 회원가입을 위한 실명인증시스템 제공\n
+                \n- GOOGLE MAP\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n7. 사용자의 권리와 행사방법\n
+                \n① 사용자는 언제든지 어플 홈페이지에 등록된 자신의 개인정보를 조회하거나 수정할 수 있으며, 가입 해지(동의 철회)를 요청할 수 있습니다.\n
+                \n② 사용자가 회원정보 수정이나 가입 해지를 위해서는 본인 확인 절차를 거친 후 ‘내 정보변경’ 또는 ‘회원탈퇴’를 클릭해 직접 열람, 정정, 탈퇴할 수 있습니다.\n
+                \n- 회원탈퇴방법: 어플접속 → 회원로그인 → 회원정보 → 회원탈퇴 메뉴 클릭\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n8. 개인정보 자동수집 장치의 설치·운영 및 거부에 관한 사항\n
+                \n어플은 사용자의 정보를 수시로 저장하고 찾아내는 쿠키를 운영합니다. 쿠키는 어플 홈페이지 이용에 대한 편의를 돕고 방문자 간의 원활한 의사소통을 위해 사용자의 브라우저에 전송하는 텍스트 파일로서 사용자의 컴퓨터 하드디스크에 저장됩니다.\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n어플은 다음과 같은 목적을 위해 쿠키를 사용합니다.\n
+                \n① 쿠키의 사용 목적\n
+                \nㄱ. 어플 홈페이지에 접속하는 사용자의 브라우저에 고유한 쿠키를 부여해 회원 및 비사용자의 이용 빈도나 전체 이용자 수 등과 같은 회원 규모를 파악하는데 사용합니다.\n
+                \nㄴ. 어플이 쿠키를 통해 수집하는 정보는 서비스나 커뮤니케이션 외의 다른 용도로 이용되지 않습니다. 또한 쿠키를 통해 수집된 정보를 이미 수집된 개인정보와 통합해 분석하지 않습니다.\n
+                \nㄷ. 사용자는 쿠키 설치에 대한 선택권을 가지고 있습니다. 따라서 사용자는 웹브라우저에서 옵션을 설정함으로써 모든 쿠키를 허용하거나, 쿠키가 저장될 때마다 확인을 거치거나 아니면 모든 쿠키의 저장을 거부할 수 있습니다. 다만, 쿠키의 저장을 거부할 경우에는 서비스 제공에 어려움이 있을 수 있습니다.\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n9. 기타 개인정보 취급에 관한 방침(기술적/관리적 보호 대책)\n
+                \n어플은 회원과 후원회원, 비회원과 같은 이용자의 개인정보를 취급함에 있어 개인정보가 분실, 도난, 유출, 변조, 훼손되지 않도록 하기 위해 다음과 같은 대책을 강구하고 있습니다.\n
+                \n① 기술적 보호 대책\n
+                \nㄱ. 비밀번호 암호화: 회원 아이디(ID)의 비밀번호는 암호화돼 저장 및 관리되고 있어 본인만이 알고 있으며, 개인정보의 확인 및 변경도 비밀번호를 알고 있는 본인에 의해서만 가능합니다.\n
+                \nㄴ. 해킹 등에 대비한 대책: 어플은 사용자의 개인정보가 유출되거나 훼손되는 것을 막기 위해 최선을 다하고 있습니다. 개인정보의 훼손에 대비해서 자료를 수시로 백업하고 있고, 최신 백신프로그램을 이용해 사용자의 개인정보나 자료가 누출되거나 손상되지 않도록 방지하고 있으며, 암호화통신(SSL) 등을 통해 네트워크상에서 개인정보를 안전하게 전송할 수 있도록 하고 있습니다. 그리고 침입차단시스템을 이용해 외부로부터의 무단 접근을 통제하고 있으며, 기타 시스템적으로 보안성을 확보하기 위한 가능한 모든 기술적 장치를 갖추려 노력하고 있습니다.\n
+                \n② 관리적 보호 대책\n
+                \nㄱ. 취급 직원의 최소화 및 교육: 어플은 사용자의 개인정보관련 취급을 담당자에게 한정시키고 있으며, 이를 위한 별도의 계정을 부여해 정기적으로 갱신하고 있습니다. 또한 담당자에 대한 수시교육을 통해 어플 홈페이지 개인정보취급방침의 준수를 항상 강조하고 있습니다.\n
+                \nㄴ. 개인정보보호전담기구의 운영: 어플은 홈페이지 개인정보취급방침의 이행사항 및 담당자의 준수여부를 확인해 문제가 발견될 경우 즉시 수정하고 바로 잡을 수 있도록 노력하고 있습니다. 다만, 사용자의 부주의나 어플이 관리하지 않는 영역에서의 사고로 인해 개인정보가 유출돼 발생한 문제에 대해서는 일체의 책임을 지지 않습니다\n
+                \nㄷ. 개인 아이디(ID)와 비밀번호 관리: 사용자가 사용하는 아이디(ID)와 비밀번호는 원칙적으로 회원 본인만 사용하도록 되어 있습니다. 어플은 어플의 고의 또는 과실이 없는 경우에 사용자의 아이디(ID)와 비밀번호 도용 또는 기타 타인의 사용으로 인해 발생된 문제에 대해 책임지지 않습니다. 어떠한 경우에도 비밀번호는 타인에게 알려 주지 마시고 로그온 상태에서는 주위의 다른 사람에게 개인 정보가 유출되지 않도록 특별한 주의를 기울여 주시기 바랍니다.\n
+                \nㄹ. 기타: 본 사이트에 링크돼 있는 웹 사이트들이 개인정보를 수집하는 행위에 대해서는 ‘본 사이트 개인정보취급방침’이 적용되지 않음을 알려 드립니다.\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n10. 개인정보관리책임자 및 담당자 연락처\n
+                \n어플 홈페이지 회원 개인정보와 관련한 아이디(ID)의 비밀번호에 대한 보안유지책임은 해당 회원 자신에게 있습니다. 어플에서는 비밀번호에 대해 어떠한 방법으로도 회원에게 직접적으로 질문하는 경우가 없으므로 타인에게 비밀번호가 유출되지 않도록 각별히 주의하시기 바랍니다.\n
+                \n어플에서는 개인정보에 대한 의견수렴 및 불만처리를 담당하는 개인정보보호 책임자 및 담당자를 아래와 같이 지정하고 있으며, 신고사항에 대해 신속하고 정확하게 답변 드리도록 노력하겠습니다.\n\n
+                \n- 개인정보 서비스담당 부서: 속속 동아리 부팀장\n
+                \n- 전화번호: 064-000-0000\n
+                \n- 이메일: hyobin0601@gmail.com\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n11. 개인정보취급방침의 시행 및 개정사항(고지의 의무)\n
+                \n어플은 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호지침, 신용정보의 이용 및 보호에 관한 법률, 전자거래기본법, 전자거래소비자보호지침 등 개인정보보호 관련 법규를 준수합니다. 따라서 어플의 개인정보취급방침 추가, 삭제 및 수정이 있을 시에는 개정 최소 7일전부터 홈페이지의 공지사항을 통해 고지하며, 개인정보의 수집 및 이용, 제3자 제공 등과 같이 회원 권리의 중요한 변경이 있을 경우에는 최소 30일 전에 고지합니다.\n\n"
+                android:textSize="15dp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

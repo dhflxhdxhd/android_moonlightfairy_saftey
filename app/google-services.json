@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "908652365990",
+    "firebase_url": "https://dalbityojeong.firebaseio.com",
+    "project_id": "dalbityojeong",
+    "storage_bucket": "dalbityojeong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908652365990:android:477b96f24824868906cc67",
+        "android_client_info": {
+          "package_name": "com.soksok.moonlight_fairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908652365990-k5om2vldqiqusg4bk4f4psjm78ao1dd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjz0IIZ6fDSxIf_qUNhqXhgYmdmdzIP14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908652365990-k5om2vldqiqusg4bk4f4psjm78ao1dd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
